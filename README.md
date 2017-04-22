@@ -1,4 +1,7 @@
-# api documentation for  [grunt-bg-shell (v2.3.3)](https://github.com/rma4ok/grunt-bg-shell#readme)  [![npm package](https://img.shields.io/npm/v/npmdoc-grunt-bg-shell.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-grunt-bg-shell) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-grunt-bg-shell.svg)](https://travis-ci.org/npmdoc/node-npmdoc-grunt-bg-shell)
+# npmdoc-grunt-bg-shell
+
+#### api documentation for  grunt-bg-shell (v2.3.3)  [![npm package](https://img.shields.io/npm/v/npmdoc-grunt-bg-shell.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-grunt-bg-shell) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-grunt-bg-shell.svg)](https://travis-ci.org/npmdoc/node-npmdoc-grunt-bg-shell)
+
 #### Better shell commands for grunt. Background/parallel run
 
 [![NPM](https://nodei.co/npm/grunt-bg-shell.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/grunt-bg-shell)
@@ -18,38 +21,39 @@
 ```json
 
 {
+    "name": "grunt-bg-shell",
+    "description": "Better shell commands for grunt. Background/parallel run",
+    "version": "2.3.3",
     "author": {
         "name": "rma4ok"
+    },
+    "contributors": [
+        {
+            "name": "Matthew Dzaman",
+            "github": "https://github.com/dzaman"
+        },
+        {
+            "name": "Chris Wren",
+            "github": "https://github.com/ChrisWren"
+        },
+        {
+            "name": "Max Brosnahan",
+            "github": "https://github.com/gingermusketeer"
+        }
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/rma4ok/grunt-bg-shell.git"
     },
     "bugs": {
         "url": "https://github.com/rma4ok/grunt-bg-shell/issues"
     },
-    "contributors": [
+    "licenses": [
         {
-            "name": "Matthew Dzaman"
-        },
-        {
-            "name": "Chris Wren"
-        },
-        {
-            "name": "Max Brosnahan"
+            "type": "MIT",
+            "url": "https://github.com/rma4ok/grunt-bg-shell/blob/master/LICENSE-MIT"
         }
     ],
-    "dependencies": {},
-    "description": "Better shell commands for grunt. Background/parallel run",
-    "devDependencies": {
-        "grunt": ">=0.4.0"
-    },
-    "directories": {},
-    "dist": {
-        "shasum": "139ae8f9c76f68a0db4ee9dbbd4ec825b9227fff",
-        "tarball": "https://registry.npmjs.org/grunt-bg-shell/-/grunt-bg-shell-2.3.3.tgz"
-    },
-    "engines": {
-        "node": ">= 0.8.0"
-    },
-    "gitHead": "24688fb37bf57596c5c49712725d4edd5f4a48bb",
-    "homepage": "https://github.com/rma4ok/grunt-bg-shell#readme",
     "keywords": [
         "gruntplugin",
         "grunt",
@@ -63,29 +67,18 @@
         "job",
         "async"
     ],
-    "licenses": [
-        {
-            "type": "MIT",
-            "url": "https://github.com/rma4ok/grunt-bg-shell/blob/master/LICENSE-MIT"
-        }
-    ],
     "main": "Gruntfile.js",
-    "maintainers": [
-        {
-            "name": "rma4ok"
-        }
-    ],
-    "name": "grunt-bg-shell",
-    "optionalDependencies": {},
+    "engines": {
+        "node": ">= 0.8.0"
+    },
+    "dependencies": {},
+    "devDependencies": {
+        "grunt": ">=0.4.0"
+    },
     "peerDependencies": {
         "grunt": ">=0.4.0"
     },
-    "repository": {
-        "type": "git",
-        "url": "git+https://github.com/rma4ok/grunt-bg-shell.git"
-    },
-    "scripts": {},
-    "version": "2.3.3"
+    "bin": {}
 }
 ```
 
